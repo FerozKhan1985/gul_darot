@@ -109,7 +109,7 @@ df = load_data()
 
 # Set up input widgets
 st.logo(image="images/gul.png",size='large', 
-        icon_image="images/streamlit-mark-color.png")
+        icon_image="images/gd.png")
 
 # Set up input widgets
 with st.sidebar:
