@@ -33,7 +33,7 @@ def aggregate_data(df, freq):
             'VIEWS': 'sum',
             'WATCH_HOURS': 'sum',
             'NET_SUBSCRIBERS': 'sum',
-            'LIKES': 'sum',
+            'IMPRESSIONS': 'sum',
             'COMMENTS': 'sum',
             'SHARES': 'sum',
         })
@@ -43,7 +43,7 @@ def aggregate_data(df, freq):
             'VIEWS': 'sum',
             'WATCH_HOURS': 'sum',
             'NET_SUBSCRIBERS': 'sum',
-            'LIKES': 'sum',
+            'IMPRESSIONS': 'sum',
             'COMMENTS': 'sum',
             'SHARES': 'sum',
         })
@@ -144,7 +144,7 @@ metrics = [
     ("Total Subscribers", "NET_SUBSCRIBERS", '#29b5e8'),
     ("Total Views", "VIEWS", '#FF9F36'),
     ("Total Watch Hours", "WATCH_HOURS", '#D45B90'),
-    ("Total Likes", "LIKES", '#7D44CF')
+    ("Total Impressions", "IMPRESSIONS", '#7D44CF')
 ]
 
 cols = st.columns(4)
